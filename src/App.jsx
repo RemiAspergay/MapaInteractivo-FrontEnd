@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "./componentes/NavBar/NavBar";
+import Registro from "./componentes/Registro/Registro";
 
 function App() {
   /* const [count, setCount] = useState(0); */
@@ -14,6 +15,7 @@ function App() {
         </div>
       </div>
       <NavBar />
+      <Registro />
     </>
   );
 }
