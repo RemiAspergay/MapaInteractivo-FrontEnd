@@ -1,0 +1,23 @@
+.tarjeta {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+    border-radius: 14px;
+    width: 360px;
+    height: auto;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    background-image: url("../assets/arica.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 0px 5px darkslategray;
+  }
+   
+  .tarjetaImagen {
+    min-height: 100px;
+    width: 100%;
+  }
+   
+  .tarjetaTitulo {
+    text-align: center;
+  }
