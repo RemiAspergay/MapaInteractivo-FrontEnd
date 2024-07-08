@@ -1,0 +1,168 @@
+:root {
+  --fondo-f: linear-gradient(#eed9c1, #ebb690);
+  --fondo-a: #6a5944;
+  --letra-a: #eed9c1;
+  --fondo-v: #9aca9f;
+  --letra-v: #1f561d;
+}
+
+.fauna-card {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  font-family: Courier;
+}
+
+.ncientifico {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: var(--fondo-a);
+  color: var(--letra-a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.imagen-fauna {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 20px;
+  top: 42px;
+  background-image: url("./assets/animalFauna.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.ncomun {
+  position: absolute;
+  width: 50%;
+  height: 20px;
+  top: 40px;
+  right: 15px;
+  background-color: var(--fondo-a);
+  color: var(--letra-a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 4px 6px 2px gray;
+  border: 2px solid black;
+}
+
+.nombre-comun {
+  position: absolute;
+  width: 50%;
+  height: 20px;
+  top: 60px;
+  right: 15px;
+  background-color: white;
+  color: var(--letra-v);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 4px 4px 6px 2px gray;
+  border: 2px solid black;
+}
+
+.estado {
+  position: absolute;
+  width: 30%;
+  height: 20px;
+  top: 110px;
+  right: 15px;
+  background-color: white;
+  color: var(--letra-v);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.medida {
+  position: absolute;
+  width: 30%;
+  height: 20px;
+  top: 150px;
+  right: 15px;
+  background-color: white;
+  color: var(--letra-v);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.masa {
+  position: absolute;
+  width: 30%;
+  height: 20px;
+  top: 175px;
+  right: 15px;
+  background-color: white;
+  color: var(--letra-v);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.descripcion {
+  position: absolute;
+  width: 85%;
+  height: 60px;
+  top: 225px;
+  left: 20px;
+  right: 20px;
+  background-color: white;
+  color: var(--letra-v);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-left: 15px solid var(--fondo-a);
+  border-right: 15px solid var(--fondo-a);
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px 2px gray;
+}
+
+.huella {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 100px;
+  left: 215px;
+  background-color: var(--fondo-a);
+  color: var(--letra-a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.imagen-huella {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 215px;
+  top: 120px;
+  background-image: url("./assets/huellaFauna.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
