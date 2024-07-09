@@ -1,25 +1,24 @@
-import { useState } from "react";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
 import NavBar from "./componentes/NavBar/NavBar";
-import Card from "./componentes/Card/Card";
+import Nosotros from "./Pages/Nosotros";
+import Ayudar from "./Pages/Ayudar";
+import Registro from "./Pages/Registro";
+import Login from "./Pages/Login";
+import Mapa from "./Pages/Mapa";
+
 
 function App() {
-  /* const [count, setCount] = useState(0); */
-
   return (
     <>
-      <div className="rounded">
-        <div className="title">EndemiMapa</div>
-        <div className="subtitle">
-          Mapa interactivo de parques nacionales y fauna endémica chilena
-        </div>
-      </div>
-      <NavBar />
-      <Card 
-        user="Jerome Bell"
-        title="Constructive and destructive ways"
-        time="2 horas 40 minutos"
-        />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Mapa />} />
+          <Route path="/Nosotros" element={<Nosotros />} />
+          <Route path="/Ayudar" element={<Ayudar />} />
+          <Route path="/Registro" element={<Registro />} />
+          <Route path="/Login" element={<Login />} />
+        </Routes>
     </>
   );
 }

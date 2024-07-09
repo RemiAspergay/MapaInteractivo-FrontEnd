@@ -1,1 +1,9 @@
-import NavBar from "./componentes/NavBar/NavBar";
+
+
+function Nosotros() {
+  return (
+    <div>Nosotros</div>
+  )
+}
+
+export default Nosotros

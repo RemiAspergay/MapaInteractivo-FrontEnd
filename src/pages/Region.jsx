@@ -1,1 +1,9 @@
-import NavBar from "./componentes/NavBar/NavBar";
+
+
+function Region() {
+  return (
+    <div>Region</div>
+  )
+}
+
+export default Region
