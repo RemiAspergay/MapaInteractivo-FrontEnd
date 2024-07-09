@@ -1,9 +1,5 @@
-
-
 function Animales() {
-  return (
-    <div>Animales</div>
-  )
+  return <div>Animales</div>;
 }
 
-export default Animales
+export default Animales;

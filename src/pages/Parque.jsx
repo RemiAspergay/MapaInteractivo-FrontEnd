@@ -1,9 +1,5 @@
-
-
 function Parque() {
-  return (
-    <div>Parque</div>
-  )
+  return <div>Parque</div>;
 }
 
-export default Parque
+export default Parque;

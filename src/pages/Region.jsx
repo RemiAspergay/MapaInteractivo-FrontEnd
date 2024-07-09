@@ -1,9 +1,5 @@
-
-
 function Region() {
-  return (
-    <div>Region</div>
-  )
+  return <div>Region</div>;
 }
 
-export default Region
+export default Region;
