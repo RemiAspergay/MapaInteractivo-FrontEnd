@@ -1,7 +1,7 @@
 :root {
   --fondo-f: linear-gradient(#eed9c1, #ebb690);
-  --fondo-a: #6a5944;
-  --letra-a: #eed9c1;
+  --fondo-a: #3a2b2b;
+  --letra-a: #f4f2ef;
   --fondo-v: #9aca9f;
   --letra-v: #1f561d;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -12,4 +12,14 @@ html {
   min-height: 100%;
   background: var(--fondo-f);
   background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
