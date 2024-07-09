@@ -1,6 +1,4 @@
-import "./cardStyle.css";
- 
-function Card({title, user, time}) {
+function Card({ title, user, time }) {
   return (
     <div className="tarjeta">
       <div className="tarjetaImagen"></div>
@@ -9,16 +7,12 @@ function Card({title, user, time}) {
       </div>
       <div className="tarjetaContenido">
         <div className="author">
-            <span>
-                {user}
-            </span>
+          <span>{user}</span>
         </div>
-        <div className="tiempo">
-            {time} 
-        </div>
+        <div className="tiempo">{time}</div>
       </div>
     </div>
   );
 }
- 
+
 export default Card;
