@@ -1,1 +1,9 @@
-import NavBar from "./componentes/NavBar/NavBar";
+
+
+function Parque() {
+  return (
+    <div>Parque</div>
+  )
+}
+
+export default Parque
