@@ -1,48 +1,54 @@
 import React from "react";
 import "./faunaCard.css";
-import faunaImagen from "../assets/animalFauna.png";
-import faunaHuella from "../assets/huellaFauna.png";
 
-const FaunaCard = () => {
+function FaunaCard(props) {
+  const {
+    ncomun,
+    nombreCientifico,
+    estado,
+    medida,
+    masa,
+    descripcion,
+    imagenFauna,
+    imagenHuella,
+  } = props;
+
   return (
     <div className="fauna-card">
       <div
         className="imagen-fauna"
-        style={{ backgroundImage: `url(${faunaImagen})` }}
+        style={{ backgroundImage: `url(${imagenFauna})` }}
       ></div>
+      <div className="ncomun">
+        <span>{ncomun}</span>
+      </div>
       <div className="ncientifico">
         <span>Nombre científico</span>
       </div>
-      <div className="ncomun">
-        <span>Nombre común</span>
-      </div>
-      <div className="nombre-comun">
-        <span>Ejemplo de nombre</span>
+      <div className="nombre-cientifico">
+        <span>{nombreCientifico}</span>
       </div>
       <div className="estado">
-        <span>Estado</span>
+        <span>{estado}</span>
       </div>
       <div className="medida">
-        <span>Centímetros</span>
+        <span>{medida}</span>
       </div>
       <div className="masa">
-        <span>Kilogramos</span>
+        <span>{masa}</span>
       </div>
       <div className="descripcion">
-        <span>
-          Aquí va una breve descripción. Este es un ejemplo. La idea es lograr
-          que sea modificable.
-        </span>
+        <span>{descripcion}</span>
       </div>
       <div className="huella">
         <span>Huella</span>
       </div>
       <div
         className="imagen-huella"
-        style={{ backgroundImage: `url(${faunaHuella})` }}
+        style={{ backgroundImage: `url(${imagenHuella})` }}
       ></div>
     </div>
   );
-};
+}
 
 export default FaunaCard;

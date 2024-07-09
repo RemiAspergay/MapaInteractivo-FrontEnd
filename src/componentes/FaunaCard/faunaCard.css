@@ -1,20 +1,12 @@
-:root {
-  --fondo-f: linear-gradient(#eed9c1, #ebb690);
-  --fondo-a: #6a5944;
-  --letra-a: #eed9c1;
-  --fondo-v: #9aca9f;
-  --letra-v: #1f561d;
-}
-
 .fauna-card {
-  position: relative;
+  position: absolute;
   width: 500px;
   height: 300px;
   background-color: white;
   font-family: Courier;
 }
 
-.ncientifico {
+.ncomun {
   position: absolute;
   width: 100%;
   height: 30px;
@@ -32,17 +24,16 @@
   height: 170px;
   left: 20px;
   top: 42px;
-  background-image: url("./assets/animalFauna.png");
   background-size: cover;
   background-position: center;
   border-radius: 50%;
 }
 
-.ncomun {
+.ncientifico {
   position: absolute;
   width: 50%;
   height: 20px;
-  top: 40px;
+  top: 41px;
   right: 15px;
   background-color: var(--fondo-a);
   color: var(--letra-a);
@@ -51,11 +42,11 @@
   align-items: center;
   font-size: 15px;
   border-radius: 5px 5px 0 0;
-  box-shadow: 0px 4px 6px 2px gray;
+  box-shadow: 4px 4px 6px 2px gray;
   border: 2px solid black;
 }
 
-.nombre-comun {
+.nombre-cientifico {
   position: absolute;
   width: 50%;
   height: 20px;
@@ -122,7 +113,7 @@
 
 .descripcion {
   position: absolute;
-  width: 85%;
+  width: 90%;
   height: 60px;
   top: 225px;
   left: 20px;
@@ -153,16 +144,17 @@
   font-size: 15px;
   border-radius: 5px;
   border: 2px solid black;
+  box-shadow: 5px 4px 6px 2px gray;
 }
 
 .imagen-huella {
   position: absolute;
-  width: 100px;
-  height: 80px;
-  left: 215px;
-  top: 120px;
-  background-image: url("./assets/huellaFauna.png");
+  width: 96px;
+  height: 85px;
+  left: 217px;
+  top: 118px;
   background-size: cover;
   background-position: center;
   border: 2px solid black;
+  box-shadow: 5px 4px 6px 2px gray;
 }
