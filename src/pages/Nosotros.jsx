@@ -21,8 +21,8 @@ function Nosotros() {
         <div
           className="nosotros"
           style={{
-            backgroundColor: "#3a2b2b",
-            color: "#f4f2ef",
+            backgroundColor: "var(--fondo-a)",
+            color: "var(--letra-a)",
             padding: "10px",
             borderRadius: "5px",
             maxWidth: "85%",
