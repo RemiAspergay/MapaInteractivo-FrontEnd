@@ -21,7 +21,7 @@ function NavBar() {
               y1="50%"
               x2="100%"
               y2="50%"
-              class="top"
+              className="top"
               shapeRendering="crispEdges"
             />
             <line
@@ -29,7 +29,7 @@ function NavBar() {
               y1="50%"
               x2="100%"
               y2="50%"
-              class="middle"
+              className="middle"
               shapeRendering="crispEdges"
             />
             <line
@@ -37,7 +37,7 @@ function NavBar() {
               y1="50%"
               x2="100%"
               y2="50%"
-              class="bottom"
+              className="bottom"
               shapeRendering="crispEdges"
             />
           </svg>

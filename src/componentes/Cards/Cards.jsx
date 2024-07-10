@@ -32,14 +32,14 @@ function Cards({ data }) {
               lg={12}
               onClick={() => handleDivClick(region.id)}
             >
-              <Card sx={{ cursor: "pointer", width: "300px", margin: "auto"}}>
+              <Card sx={{ cursor: "pointer", width: "300px", margin: "auto", border: "0", boxShadow:"0"}}>
                 <CardMedia
                   component="img"
                   alt={region.nombre}
                   src={region.imagen}
                 />
                 <CardContent >
-                  <Typography variant="h6">{region.nombre}</Typography>
+                  <Typography variant="h6" >{region.nombre}</Typography>
                 </CardContent>
                 <Link to={`/Region/${region.id}`}></Link>
               </Card>
