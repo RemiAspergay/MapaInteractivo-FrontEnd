@@ -18,7 +18,7 @@ function Cards({ data }) {
   const navigate = useNavigate();
   return (
     <>
-        <Grid container sx={{ mb: "20px", my: "auto" }}>
+        <Grid className="container-map" container sx={{ mb: "20px", my: "auto", maxWidth: "100%" }}>
           {data.map((region, index) => (
             <Grid
               key={index}
@@ -35,6 +35,7 @@ function Cards({ data }) {
                   component="img"
                   alt={region.nombre}
                   src={region.imagen}
+                  sx={{maxWidth:"100%"}}
                 />
                 {/* <CardContent >
                   <Typography variant="h6" sx={{textAlign: "right"}}>{region.nombre}</Typography>
