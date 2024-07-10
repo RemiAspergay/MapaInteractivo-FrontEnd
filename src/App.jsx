@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
 import NavBar from "./componentes/NavBar/NavBar";
-import Nosotros from "./pages/Nosotros";
-import Ayudar from "./pages/Ayudar";
-import Registro from "./pages/Registro";
-import Login from "./pages/Login";
-import Mapa from "./pages/Mapa";
+import Nosotros from "./Pages/Nosotros";
+import Ayudar from "./Pages/Ayudar";
+import Registro from "./Pages/Registro";
+import Login from "./Pages/Login";
+import Mapa from "./Pages/Mapa";
 
 function App() {
   return (

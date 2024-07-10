@@ -1,5 +1,4 @@
-import React from "react";
-import "../App.css";
+
 import Benjamin from "../componentes/assets/Benjamin.png";
 import Henry from "../componentes/assets/Henry.png";
 import Paula from "../componentes/assets/Paula.png";
