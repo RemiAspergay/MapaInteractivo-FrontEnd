@@ -15,14 +15,14 @@ function NavBar() {
     <header>
       <nav>
         <div className="burger" role="button" onClick={() => setDrawer(!drawer)}>
-          <svg class="vbp-header-menu-button__svg">
+          <svg className="vbp-header-menu-button__svg">
             <line
               x1="0"
               y1="50%"
               x2="100%"
               y2="50%"
               class="top"
-              shape-rendering="crispEdges"
+              shapeRendering="crispEdges"
             />
             <line
               x1="0"
@@ -30,7 +30,7 @@ function NavBar() {
               x2="100%"
               y2="50%"
               class="middle"
-              shape-rendering="crispEdges"
+              shapeRendering="crispEdges"
             />
             <line
               x1="0"
@@ -38,7 +38,7 @@ function NavBar() {
               x2="100%"
               y2="50%"
               class="bottom"
-              shape-rendering="crispEdges"
+              shapeRendering="crispEdges"
             />
           </svg>
         </div>
@@ -78,27 +78,3 @@ function NavBar() {
 }
  
 export default NavBar;
-/* <ul className="nav-menu">
-        <li onClick={() => setMenu("Mapa")}>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Mapa
-          {menu === "Mapa" ? <hr /> : <></>}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Nosotros")}>
-          <Link to="/Nosotros" style={{ textDecoration: "none" }}>
-            Nosotros {menu === "Nosotros" && <hr />}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Ayudar")}>
-          <Link to="/Ayudar" style={{ textDecoration: "none" }}>
-            Ayudar {menu === "Ayudar" && <hr />}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Login")}>
-          <Link to="/Login" style={{ textDecoration: "none" }}>
-            Login{menu === "Login" && <hr />}
-          </Link>
-        </li>
-      </ul> */
-

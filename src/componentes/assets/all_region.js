@@ -15,7 +15,7 @@ import p14_img from "./lagos.svg";
 import p15_img from "./aisen.svg";
 import p16_img from "./magallanes.svg";
 
-let all_product = [
+let all_region = [
   {
     id: 1,
     nombre:
