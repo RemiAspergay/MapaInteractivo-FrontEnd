@@ -1,3 +1,8 @@
+import { useState } from "react";
+import "./App.css";
+import Card from "./componentes/Card/Card";
+import Registro from "./componentes/Registro/Registro";
+import LoginSignup from "./componentes/Login/LoginSignup";
 import { Routes, Route } from "react-router-dom";
 
 import NavBar from "./componentes/NavBar/NavBar";
