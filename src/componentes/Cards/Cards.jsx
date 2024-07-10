@@ -37,10 +37,6 @@ function Cards({ data }) {
                   src={region.imagen}
                   sx={{maxWidth:"100%"}}
                 />
-                {/* <CardContent >
-                  <Typography variant="h6" sx={{textAlign: "right"}}>{region.nombre}</Typography>
-                </CardContent>
-                <Link to={`/Region/${region.id}`}></Link> */}
               </Card>
             </Grid>
           ))}

@@ -1,19 +1,19 @@
-import p1_img from "./arica.svg";
-import p2_img from "./tarapaca.svg";
-import p3_img from "./antofagasta.svg";
-import p4_img from "./atacama.svg";
-import p5_img from "./coquimbo.svg";
-import p6_img from "./valparaiso.svg";
+import p1_img from "./arica.png";
+import p2_img from "./tarapaca.png";
+import p3_img from "./antofagasta.png";
+import p4_img from "./atacama.png";
+import p5_img from "./coquimbo.png";
+import p6_img from "./valparaiso.png";
 import p7_img from "./metropolitana.svg";
-import p8_img from "./bernardo.svg";
-import p9_img from "./maule.svg";
-import p10_img from "./nuble.svg";
-import p11_img from "./biobio.svg";
-import p12_img from "./araucania.svg";
-import p13_img from "./rios.svg";
-import p14_img from "./lagos.svg";
-import p15_img from "./aisen.svg";
-import p16_img from "./magallanes.svg";
+import p8_img from "./bernardo.png";
+import p9_img from "./maule.png";
+import p10_img from "./nuble.png";
+import p11_img from "./biobio.png";
+import p12_img from "./araucania.png";
+import p13_img from "./rios.png";
+import p14_img from "./lagos.png";
+import p15_img from "./aisen.png";
+import p16_img from "./magallanes.png";
 
 let all_region = [
   {
@@ -23,7 +23,7 @@ let all_region = [
     imagen: p1_img,
     marginTop: 0,
     marginBottom: 0,
-    marginLeft: "90px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -31,9 +31,9 @@ let all_region = [
     nombre:
       "Región de Tarapacá",
     imagen: p2_img,
-    marginTop: "-20px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "130px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -41,9 +41,9 @@ let all_region = [
     nombre:
       "Región de Antofagasta",
     imagen: p3_img,
-    marginTop: "-25px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "140px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -51,9 +51,9 @@ let all_region = [
     nombre:
       "Región de Atacama",
     imagen: p4_img,
-    marginTop: "-50px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "90px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -63,7 +63,7 @@ let all_region = [
     imagen: p5_img,
     marginTop: 0,
     marginBottom: 0,
-    marginLeft: "90px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -71,9 +71,9 @@ let all_region = [
     nombre:
       "Región de Valparaíso",
     imagen: p6_img,
-    marginTop: "-20px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "85px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -81,9 +81,9 @@ let all_region = [
     nombre:
       "Región Metropolitana de Santiago",
     imagen: p7_img,
-    marginTop: "-150px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "130px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -91,9 +91,9 @@ let all_region = [
     nombre:
       "Región del Libertador General Bernardo O'Higgins",
     imagen: p8_img,
-    marginTop: "-30px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "100px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -103,7 +103,7 @@ let all_region = [
     imagen: p9_img,
     marginTop: 0,
     marginBottom: 0,
-    marginLeft: "60px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -111,9 +111,9 @@ let all_region = [
     nombre:
       "Región de Ñuble",
     imagen: p10_img,
-    marginTop: "-30px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "50px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -121,9 +121,9 @@ let all_region = [
     nombre:
       "Región del Biobío",
     imagen: p11_img,
-    marginTop: "-20px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "20px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -131,9 +131,9 @@ let all_region = [
     nombre:
       "Región de La Araucanía",
     imagen: p12_img,
-    marginTop: "-70px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "80px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -141,9 +141,9 @@ let all_region = [
     nombre:
       "Región de Los Ríos",
     imagen: p13_img,
-    marginTop: "-10px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "50px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -151,9 +151,9 @@ let all_region = [
     nombre:
       "Región de Los Lagos",
     imagen: p14_img,
-    marginTop: "-20px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "20px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -161,9 +161,9 @@ let all_region = [
     nombre:
       "Región de Aysén del General Carlos Ibáñez del Campo",
     imagen: p15_img,
-    marginTop: "-20px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "35px",
+    marginLeft: 0,
     marginRight: 0
   },
   {
@@ -171,9 +171,9 @@ let all_region = [
     nombre:
       "Región de Magallanes y de la Antártica Chilena",
     imagen: p16_img,
-    marginTop: "-30px",
+    marginTop: 0,
     marginBottom: 0,
-    marginLeft: "80px",
+    marginLeft: 0,
     marginRight: 0
   },
 ];
