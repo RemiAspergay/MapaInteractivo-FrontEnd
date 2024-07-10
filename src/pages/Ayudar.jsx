@@ -34,9 +34,6 @@ function Ayudar() {
           Tambien, dejamos fundaciones a las que podrías recurrir:
         </p>
       </div>
-      <div className="footer">
-        © EndemiMapa.cl 2024 Todos los derechos reservados.
-      </div>
     </>
   );
 }

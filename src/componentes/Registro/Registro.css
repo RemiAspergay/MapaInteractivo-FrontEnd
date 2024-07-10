@@ -1,22 +1,4 @@
-:root {
-  --fondo-f: linear-gradient(#eed9c1, #ebb690);
-  --fondo-a: #6a5944;
-  --letra-a: #eed9c1;
-  --fondo-v: #9aca9f;
-  --letra-v: #1f561d;
-}
-.root {
-  position: relative;
-  width: 773px;
-  height: 739px;
-  flex-direction: column;
-  align-items: flex-start;
-  outline: solid 1px #000;
-  outline-offset: -1px;
-  border-radius: 30px;
-  background-color: #6a5944;
-  overflow: hidden;
-}
+
 section {
   display: flex;
   position: absolute;
@@ -77,10 +59,6 @@ h2 {
 
 .Formulario button:hover {
   background-color: var(--letra-v);
-}
-
-p {
-  color: var(--fondo-a);
 }
 
 .rounded {

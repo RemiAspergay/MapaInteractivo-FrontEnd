@@ -66,9 +66,6 @@ function Nosotros() {
         />
         <img src={Remi} alt="Remi" style={{ width: "15%", height: "auto" }} />
       </div>
-      <div className="footer">
-        © EndemiMapa.cl 2024 Todos los derechos reservados.
-      </div>
     </>
   );
 }
