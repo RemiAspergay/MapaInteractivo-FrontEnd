@@ -1,53 +1,47 @@
 import React from "react";
 import "./faunaCard.css";
 
-function FaunaCard(props) {
-  const {
-    ncomun,
-    nombreCientifico,
-    estado,
-    medida,
-    masa,
-    descripcion,
-    imagenFauna,
-    imagenHuella,
-  } = props;
+function FaunaCard({data}) {
 
   return (
-    <div className="fauna-card">
+    <>
+    {data.map((fauna, index) => (
+    <div className="fauna-card" key={index}>
       <div
         className="imagen-fauna"
-        style={{ backgroundImage: `url(${imagenFauna})` }}
+        style={{ backgroundImage: `url(${fauna.imagenFauna})` }}
       ></div>
       <div className="ncomun">
-        <span>{ncomun}</span>
+        <span>{fauna.ncomun}</span>
       </div>
       <div className="ncientifico">
         <span>Nombre científico</span>
       </div>
       <div className="nombre-cientifico">
-        <span>{nombreCientifico}</span>
+        <span>{fauna.nombreCientifico}</span>
       </div>
       <div className="estado">
-        <span>{estado}</span>
+        <span>{fauna.estado}</span>
       </div>
       <div className="medida">
-        <span>{medida}</span>
+        <span>{fauna.medida}</span>
       </div>
       <div className="masa">
-        <span>{masa}</span>
+        <span>{fauna.masa}</span>
       </div>
       <div className="descripcion">
-        <span>{descripcion}</span>
+        <span>{fauna.descripcion}</span>
       </div>
       <div className="huella">
         <span>Huella</span>
       </div>
       <div
         className="imagen-huella"
-        style={{ backgroundImage: `url(${imagenHuella})` }}
+        style={{ backgroundImage: `url(${fauna.imagenHuella})` }}
       ></div>
     </div>
+    ))}
+    </>
   );
 }
 

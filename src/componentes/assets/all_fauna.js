@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Swiftia from "./10Swiftia_comauensis.png";
 import Aegla from "./11Aegla_denticulata.png";
 import Paraholopterus from "./11Paraholopterus_nahuelbutensis.png";
@@ -6,6 +7,28 @@ import condorito from "./13Euathlus_condorito.png";
 import norae from "./14Alsodes_norae.png";
 import eulidia from "./15Eulidia_yarrellii.png";
 import vociferator from "./16Phymaturus_vociferator.png";
+=======
+import Swiftia from "./fauna_img/10Swiftia_comauensis.png";
+import Aegla from "./fauna_img/11Aegla_denticulata.png";
+import Paraholopterus from "./fauna_img/11Paraholopterus_nahuelbutensis.png";
+import Alsodes from "./fauna_img/13Alsodes_laevis.png";
+import norae from "./fauna_img/14Alsodes_norae.png";
+import condorito from "./fauna_img/13Euathlus_condorito.png";
+import eulidia from "./fauna_img/15Eulidia_yarrellii.png";
+import orestia from "./fauna_img/15Orestiaspiacotensis.png";
+import vociferator from "./fauna_img/16Phymaturus_vociferator.png";
+import Lirimensis from "./fauna_img/1PseudorestiasLirimensis.png";
+import Telmatobius from "./fauna_img/1TelmatobiusChusmisensis.png";
+import Barrigai from "./fauna_img/2EctinogoniaBarrigai.png";
+import Vilamensis from "./fauna_img/2TelmatobiusVilamensis.png";
+import Papudo from "./fauna_img/4AeglaPapudo.png";
+import Cnema from "./fauna_img/4CnemalobusPegnai.png";
+import Parvulus from "./fauna_img/5EuathlusParvulus.png";
+import Phymaturus from "./fauna_img/5PhymaturusAlicahuense.png";
+import Confusus from "./fauna_img/6LiolaemusConfusus.png";
+import Nitidus from "./fauna_img/6SclerostomulusNitidus.png";
+import Curis from "./fauna_img/7LiolaemusCuris.png";
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
 
 let all_fauna = [
   {
@@ -16,10 +39,17 @@ let all_fauna = [
     medida: "5-10 cm",
     masa: "10-15 g",
     descripcion: "Pez endémico de áreas específicas en Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Atacama",
     parques: "Parque Nacional Llanos de Challe",
+=======
+    imagenFauna: Lirimensis,
+    imagenHuella: "",
+    Region: ["Región de Atacama"],
+    parques: ["Parque Nacional Llanos de Challe"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 2,
@@ -29,10 +59,17 @@ let all_fauna = [
     medida: "6-8 cm",
     masa: "30-40 g",
     descripcion: "Rana que habita en zonas específicas de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Antofagasta",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    imagenFauna: Telmatobius,
+    imagenHuella: "",
+    Region: ["Región de Antofagasta"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 3,
@@ -44,8 +81,13 @@ let all_fauna = [
     descripcion: "Pez endémico de cuerpos de agua específicos en Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Tarapacá",
     parques: "Parque Nacional Volcán Isluga",
+=======
+    Region: ["Región de Tarapacá"],
+    parques: ["Parque Nacional Volcán Isluga"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 4,
@@ -55,10 +97,17 @@ let all_fauna = [
     medida: "5-7 cm",
     masa: "20-30 g",
     descripcion: "Rana que se encuentra en áreas restringidas de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Arica y Parinacota",
     parques: "Parque Nacional Lauca",
+=======
+    imagenFauna: Vilamensis,
+    imagenHuella: "",
+    Region: ["Región de Arica y Parinacota"],
+    parques: ["Parque Nacional Lauca"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 5,
@@ -70,8 +119,13 @@ let all_fauna = [
     descripcion: "Araña tarántula que habita en el desierto de Atacama.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Atacama",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    Region: ["Región de Atacama"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 6,
@@ -83,8 +137,13 @@ let all_fauna = [
     descripcion: "Escorpión que habita en regiones desérticas de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Antofagasta",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    Region: ["Región de Antofagasta"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 7,
@@ -94,10 +153,17 @@ let all_fauna = [
     medida: "2-3 cm",
     masa: "2-3 g",
     descripcion: "Escarabajo endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    imagenFauna: Barrigai,
+    imagenHuella: "",
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 8,
@@ -109,8 +175,13 @@ let all_fauna = [
     descripcion: "Escarabajo que habita en zonas específicas de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Atacama",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    Region: ["Región de Atacama"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 9,
@@ -120,10 +191,17 @@ let all_fauna = [
     medida: "1-2 cm",
     masa: "1-2 g",
     descripcion: "Escarabajo endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Valparaíso",
     parques: "Parque Nacional La Campana",
+=======
+    imagenFauna: Cnema,
+    imagenHuella: "",
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional La Campana"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 10,
@@ -135,8 +213,13 @@ let all_fauna = [
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 11,
@@ -146,10 +229,17 @@ let all_fauna = [
     medida: "5-7 cm",
     masa: "20-30 g",
     descripcion: "Cangrejo endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Valparaíso",
     parques: "Parque Nacional La Campana",
+=======
+    imagenFauna: Papudo,
+    imagenHuella: "",
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional La Campana"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 12,
@@ -159,10 +249,17 @@ let all_fauna = [
     medida: "10-15 cm",
     masa: "25-35 g",
     descripcion: "Tarántula que habita en el norte de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Arica y Parinacota",
     parques: "Parque Nacional Lauca",
+=======
+    imagenFauna: Parvulus,
+    imagenHuella: "",
+    Region: ["Región de Arica y Parinacota"],
+    parques: ["Parque Nacional Lauca"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 13,
@@ -174,8 +271,13 @@ let all_fauna = [
     descripcion: "Escarabajo endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de O'Higgins",
     parques: "Parque Nacional Radal Siete Tazas",
+=======
+    Region: ["Región de O'Higgins"],
+    parques: ["Parque Nacional Radal Siete Tazas"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 14,
@@ -185,10 +287,17 @@ let all_fauna = [
     medida: "8-12 cm",
     masa: "20-25 g",
     descripcion: "Lagarto endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    imagenFauna: Phymaturus,
+    imagenHuella: "",
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 15,
@@ -198,10 +307,17 @@ let all_fauna = [
     medida: "1-2 cm",
     masa: "1-2 g",
     descripcion: "Escarabajo endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Valparaíso",
     parques: "Parque Nacional La Campana",
+=======
+    imagenFauna: Nitidus,
+    imagenHuella: "",
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional La Campana"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 16,
@@ -213,8 +329,13 @@ let all_fauna = [
     descripcion: "Escarabajo endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Atacama",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    Region: ["Región de Atacama"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 17,
@@ -224,10 +345,17 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    imagenFauna: Confusus,
+    imagenHuella: "",
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 18,
@@ -239,8 +367,13 @@ let all_fauna = [
     descripcion: "Mosca endémica de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Valparaíso",
     parques: "Parque Nacional La Campana",
+=======
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional La Campana"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 19,
@@ -250,10 +383,17 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    imagenFauna: Curis,
+    imagenHuella: "",
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 20,
@@ -265,8 +405,13 @@ let all_fauna = [
     descripcion: "Rana endémica de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de La Araucanía",
     parques: "Parque Nacional Huerquehue",
+=======
+    Region: ["Región de La Araucanía"],
+    parques: ["Parque Nacional Huerquehue"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 21,
@@ -278,8 +423,13 @@ let all_fauna = [
     descripcion: "Rana que habita en áreas específicas de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Lagos",
     parques: "Parque Nacional Vicente Pérez Rosales",
+=======
+    Region: ["Región de Los Lagos"],
+    parques: ["Parque Nacional Vicente Pérez Rosales"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 22,
@@ -291,8 +441,13 @@ let all_fauna = [
     descripcion: "Araña endémica de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región del Biobío",
     parques: "Parque Nacional Nonguén",
+=======
+    Region: ["Región del Biobío"],
+    parques: ["Parque Nacional Nonguén"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 23,
@@ -304,8 +459,13 @@ let all_fauna = [
     descripcion: "Escarabajo endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Ríos",
     parques: "Parque Nacional Alerce Costero",
+=======
+    Region: ["Región de Los Ríos"],
+    parques: ["Parque Nacional Alerce Costero"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 24,
@@ -317,8 +477,13 @@ let all_fauna = [
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 25,
@@ -330,8 +495,13 @@ let all_fauna = [
     descripcion: "Cangrejo endémico de Chile.",
     imagenFauna: Aegla,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Ríos",
     parques: "Parque Nacional Alerce Costero",
+=======
+    Region: ["Región de Los Ríos"],
+    parques: ["Parque Nacional Alerce Costero"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 26,
@@ -343,8 +513,13 @@ let all_fauna = [
     descripcion: "Coral endémico de Chile.",
     imagenFauna: Swiftia,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Lagos",
     parques: "Parque Nacional Chiloé",
+=======
+    Region: ["Región de Los Lagos"],
+    parques: ["Parque Nacional Chiloé"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 27,
@@ -356,8 +531,13 @@ let all_fauna = [
     descripcion: "Coleóptero endémico de Chile.",
     imagenFauna: Paraholopterus,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región del Biobío",
     parques: "Parque Nacional Nahuelbuta",
+=======
+    Region: ["Región del Biobío"],
+    parques: ["Parque Nacional Nahuelbuta"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 28,
@@ -369,8 +549,13 @@ let all_fauna = [
     descripcion: "Rana que habita en áreas específicas de Chile.",
     imagenFauna: Alsodes,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Ríos",
     parques: "Parque Nacional Alerce Costero",
+=======
+    Region: ["Región de Los Ríos"],
+    parques: ["Parque Nacional Alerce Costero"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 29,
@@ -382,8 +567,13 @@ let all_fauna = [
     descripcion: "Tarántula que habita en el norte de Chile.",
     imagenFauna: condorito,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Antofagasta",
     parques: "Parque Nacional Pan de Azúcar",
+=======
+    Region: ["Región de Antofagasta"],
+    parques: ["Parque Nacional Pan de Azúcar"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 30,
@@ -395,8 +585,13 @@ let all_fauna = [
     descripcion: "Insecto endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Lagos",
     parques: "Parque Nacional Chiloé",
+=======
+    Region: ["Región de Los Lagos"],
+    parques: ["Parque Nacional Chiloé"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 31,
@@ -408,8 +603,13 @@ let all_fauna = [
     descripcion: "Rana que habita en áreas específicas de Chile.",
     imagenFauna: norae,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Los Ríos",
     parques: "Parque Nacional Alerce Costero",
+=======
+    Region: ["Región de Los Ríos"],
+    parques: ["Parque Nacional Alerce Costero"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 32,
@@ -419,10 +619,17 @@ let all_fauna = [
     medida: "4-6 cm",
     masa: "5-10 g",
     descripcion: "Pez endémico de cuerpos de agua específicos en Chile.",
+<<<<<<< HEAD
     imagenFauna: "",
     imagenHuella: "",
     Region: "Región de Tarapacá",
     parques: "Parque Nacional Volcán Isluga",
+=======
+    imagenFauna: orestia,
+    imagenHuella: "",
+    Region: ["Región de Tarapacá"],
+    parques: ["Parque Nacional Volcán Isluga"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 33,
@@ -434,8 +641,13 @@ let all_fauna = [
     descripcion: "Pequeño colibrí endémico de Chile.",
     imagenFauna: eulidia,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Arica y Parinacota",
     parques: "Parque Nacional Lauca",
+=======
+    Region: ["Región de Arica y Parinacota"],
+    parques: ["Parque Nacional Lauca"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 34,
@@ -447,8 +659,13 @@ let all_fauna = [
     descripcion: "Pequeño colibrí endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Arica y Parinacota",
     parques: "Parque Nacional Lauca",
+=======
+    Region: ["Región de Arica y Parinacota"],
+    parques: ["Parque Nacional Lauca"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 35,
@@ -460,8 +677,13 @@ let all_fauna = [
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: vociferator,
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Coquimbo",
     parques: "Parque Nacional Bosque Fray Jorge",
+=======
+    Region: ["Región de Coquimbo"],
+    parques: ["Parque Nacional Bosque Fray Jorge"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 36,
@@ -473,8 +695,13 @@ let all_fauna = [
     descripcion: "Pequeño pájaro endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Valparaíso",
     parques: "Parque Nacional Archipiélago Juan Fernández",
+=======
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional Archipiélago Juan Fernández"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 37,
@@ -486,8 +713,13 @@ let all_fauna = [
     descripcion: "Pequeño colibrí endémico de Chile.",
     imagenFauna: "",
     imagenHuella: "",
+<<<<<<< HEAD
     Region: "Región de Valparaíso",
     parques: "Parque Nacional Archipiélago Juan Fernández",
+=======
+    Region: ["Región de Valparaíso"],
+    parques: ["Parque Nacional Archipiélago Juan Fernández"],
+>>>>>>> 204b25fdce758172505214104dc0f1f55ac006cf
   },
   {
     id: 38,
@@ -742,6 +974,25 @@ let all_fauna = [
       "Parque Nacional Vicente Pérez Rosales",
     ],
   },
+  {
+    id: 54,
+    ncomun: "Huemul",
+    nombreCientifico: "Hippocamelus bisulcus",
+    estado: "En peligro",
+    medida: "165-170 cm",
+    masa: "20-100 kg",
+    descripcion:
+      "mamífero en peligro de extinción perteneciente a la familia Cervidae que habita en la cordillera de los Andes en los bosques andino patagónicos.",
+    imagenFauna: "",
+    imagenHuella: "",
+    Region: ["Región de Ñuble"],
+    parques: [
+      "Parque Nacional Torres del Paine",
+      "Parque Nacional Alerce Andino",
+      "Parque Nacional Vicente Pérez Rosales",
+      "Reserva nacional Ñuble",
+    ],
+  },
 ];
-
+ 
 export default all_fauna;

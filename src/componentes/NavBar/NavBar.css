@@ -5,6 +5,10 @@ nav {
   overflow-x: hidden;
 }
 
+.header {
+  z-index: 3;
+}
+
 .title {
   font-size: 50px;
   font-weight: 100;
@@ -157,11 +161,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
   margin: auto;
+  background-color:aquamarine;
 }
 
 @media (max-width: 600px) {

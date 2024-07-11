@@ -5,7 +5,7 @@ import p4_img from "./atacama.svg";
 import p5_img from "./coquimbo.svg";
 import p6_img from "./valparaiso.svg";
 import p7_img from "./metropolitana.svg";
-import p8_img from "./bernardo.svg";
+import p8_img from "./ohiggins.svg";
 import p9_img from "./maule.svg";
 import p10_img from "./nuble.svg";
 import p11_img from "./biobio.svg";
