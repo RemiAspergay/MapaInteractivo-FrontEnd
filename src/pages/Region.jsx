@@ -35,6 +35,7 @@ function Region() {
               />
             </Grid>
             <Grid item xs={12} sm={6} sx={{ padding: "15px", margin: "auto" }}>
+              {/* TRAE EL NOMBRE DE LA REGION DEL ARRAY */}
               <Typography
                 variant="h4"
                 sx={{ textAlign: "center", marginTop: "-200px" }}
@@ -56,23 +57,23 @@ function Region() {
                     </Grid>
                   ))}
               </Grid>
-              {/* RENDERIZACION FAUNA MAP() */}
-              <Grid container sx={{ mt: "40px" }}>
-                {fauna.length > 0 &&
-                  fauna.map((animal, index) => (
-                    <Grid
-                      key={index}
-                      item
-                      xs={12}
-                      sm={6}
-                      md={4}
-                      sx={{ margin: "auto" }}
-                    >
-                      <FaunaCard {...animal} />
-                    </Grid>
-                  ))}
-              </Grid>
             </Grid>
+          </Grid>
+          {/* RENDERIZACION FAUNA MAP() */}
+          <Grid container sx={{ mt: "40px" }}>
+            {fauna.length > 0 &&
+              fauna.map((animal, index) => (
+                <Grid
+                  key={index}
+                  item
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  sx={{ margin: "auto" }}
+                >
+                  <FaunaCard {...animal} />
+                </Grid>
+              ))}
           </Grid>
         </Container>
       )}

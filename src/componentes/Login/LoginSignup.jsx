@@ -23,7 +23,10 @@ const LoginSignup = () => {
       })
       .then((response) => {
         const usuarioJSON = JSON.stringify(response.data);
-        localStorage.setItem("usuario", usuarioJSON); // Guarda en el local Storage
+        localStorage.setItem(
+          "usuario",
+          usuarioJSON
+        ); /* Guarda en el local Storage */
         navigate("/");
       })
       .catch((error) => console.log(error));
@@ -32,7 +35,7 @@ const LoginSignup = () => {
   const handleSubmit = (e) => {
     if (action === e) {
       if (e === "Sign Up") {
-        // Se crea nuevo usuario
+        /* Se crea nuevo usuario */
         axios
           .post(`${ruta}/usuarios/crear`, {
             nombre,
@@ -86,12 +89,14 @@ const LoginSignup = () => {
           />
         </div>
         <div className="submit-container">
+          {/* Lógica del registro */}
           <div
             className={action === "Sign Up" ? "submit pink" : "submit"}
             onClick={() => handleSubmit("Sign Up")}
           >
             Regístrate
           </div>
+          {/* lógica de inicio de sesión */}
           <div
             className={action === "Login" ? "submit pink" : "submit"}
             onClick={() => handleSubmit("Login")}

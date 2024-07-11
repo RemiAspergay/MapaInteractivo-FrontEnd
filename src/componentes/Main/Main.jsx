@@ -1,4 +1,4 @@
-import "./Main.css";
+/* import "./Main.css";
 
 function Main({ children }) {
   return (
@@ -9,3 +9,4 @@ function Main({ children }) {
 }
 
 export default Main;
+ */
