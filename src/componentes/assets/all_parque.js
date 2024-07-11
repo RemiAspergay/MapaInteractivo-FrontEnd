@@ -124,8 +124,16 @@ let all_parque = [
     nombre: "Parque Nacional Vicente Pérez Rosales",
     region: "Región de Los Lagos",
   },
-  { id: 26, nombre: "Parque Nacional Puyehue", region: "Región de Los Lagos" },
-  { id: 27, nombre: "Parque Nacional Chiloé", region: "Región de Los Lagos" },
+  { 
+    id: 26, 
+    nombre: "Parque Nacional Puyehue", 
+    region: "Región de Los Lagos" 
+  },
+  { 
+    id: 27, 
+    nombre: "Parque Nacional Chiloé", 
+    region: "Región de Los Lagos" 
+  },
   {
     id: 28,
     nombre: "Parque Nacional Hornopirén",
@@ -180,6 +188,11 @@ let all_parque = [
     id: 38,
     nombre: "Parque Nacional Kawésqar",
     region: "Región de Magallanes y de la Antártica Chilena",
+  },
+  {
+    id: 39,
+    nombre: "Reserva nacional Ñuble",
+    region: "Región de Ñuble",
   },
 ];
 

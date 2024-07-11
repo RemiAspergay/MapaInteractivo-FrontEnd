@@ -6,13 +6,14 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { drawerClasses } from "@mui/material";
 
-function NavBar() {
+function NavBar({children}) {
   const [drawer, setDrawer] = useState(false);
   const [menu, setMenu] = useState(false);
   useEffect(() => {
     setDrawer(false);
   }, [menu]);
   return (
+   <>
     <header>
       <nav>
         <div
@@ -55,7 +56,10 @@ function NavBar() {
         </div>
         <div className="navUser">B</div>
       </nav>
-      <div className={`nav-menu ${drawer ? "nav-menu-down" : "nav-menu-top"}`}>
+      
+    </header>
+    {children}
+    <div className={`nav-menu ${drawer ? "nav-menu-down" : "nav-menu-top"}`}>
         <ul>
           <li onClick={() => setMenu("Mapa")}>
             <Link to="/">Mapa</Link>
@@ -71,7 +75,7 @@ function NavBar() {
           </li>
         </ul>
       </div>
-    </header>
+   </>
   );
 }
 
