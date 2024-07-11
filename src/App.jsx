@@ -3,9 +3,10 @@ import { Routes, Route } from "react-router-dom";
 
 import Main from "./componentes/Main/Main";
 import NavBar from "./componentes/NavBar/NavBar";
-import Nosotros from "./pages/Nosotros";
-import Ayudar from "./pages/Ayudar";
-import Mapa from "./pages/Mapa";
+import Nosotros from "./Pages/Nosotros";
+import Ayudar from "./Pages/Ayudar";
+import Mapa from "./Pages/Mapa";
+import Region from "./Pages/Region";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Ayudar" element={<Ayudar />} />
           <Route path="/Login" element={<LoginSignup />} />
+          <Route path="/Region/:id" element={<Region />} />
         </Routes>
       </Main>
       <div className="footer">

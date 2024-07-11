@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import "./NavBar.css";
 import logo from "../assets/wina.svg";
@@ -6,39 +5,45 @@ import { Link } from "react-router-dom";
 
 import "./NavBar.css";
 import { drawerClasses } from "@mui/material";
- 
+
 function NavBar() {
-  const [drawer,setDrawer] = useState(false)
-  const [menu,setMenu] = useState(false)
-  useEffect(() => {setDrawer(false)},[menu]) 
+  const [drawer, setDrawer] = useState(false);
+  const [menu, setMenu] = useState(false);
+  useEffect(() => {
+    setDrawer(false);
+  }, [menu]);
   return (
     <header>
       <nav>
-        <div className="burger" role="button" onClick={() => setDrawer(!drawer)}>
-          <svg class="vbp-header-menu-button__svg">
+        <div
+          className="burger"
+          role="button"
+          onClick={() => setDrawer(!drawer)}
+        >
+          <svg className="vbp-header-menu-button__svg">
             <line
               x1="0"
               y1="50%"
               x2="100%"
               y2="50%"
-              class="top"
-              shape-rendering="crispEdges"
+              className="top"
+              shapeRendering="crispEdges"
             />
             <line
               x1="0"
               y1="50%"
               x2="100%"
               y2="50%"
-              class="middle"
-              shape-rendering="crispEdges"
+              className="middle"
+              shapeRendering="crispEdges"
             />
             <line
               x1="0"
               y1="50%"
               x2="100%"
               y2="50%"
-              class="bottom"
-              shape-rendering="crispEdges"
+              className="bottom"
+              shapeRendering="crispEdges"
             />
           </svg>
         </div>
@@ -48,57 +53,26 @@ function NavBar() {
             Mapa interactivo de parques nacionales y fauna endémica chilena
           </h2>
         </div>
+        <div className="navUser">B</div>
       </nav>
-      <div className={`nav-menu ${drawer ? 'nav-menu-down' : 'nav-menu-top'}`}>
-      <ul>
-        <li onClick={() => setMenu("Mapa")}>
-          <Link to="/">
-            Mapa
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Nosotros")}>
-          <Link to="/Nosotros">
-            Nosotros
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Ayudar")}>
-          <Link to="/Ayudar">
-            Ayudar
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Login")}>
-          <Link to="/Login">
-            Login
-          </Link>
-        </li>
-      </ul>
+      <div className={`nav-menu ${drawer ? "nav-menu-down" : "nav-menu-top"}`}>
+        <ul>
+          <li onClick={() => setMenu("Mapa")}>
+            <Link to="/">Mapa</Link>
+          </li>
+          <li onClick={() => setMenu("Nosotros")}>
+            <Link to="/Nosotros">Nosotros</Link>
+          </li>
+          <li onClick={() => setMenu("Ayudar")}>
+            <Link to="/Ayudar">Ayudar</Link>
+          </li>
+          <li onClick={() => setMenu("Login")}>
+            <Link to="/Login">Login</Link>
+          </li>
+        </ul>
       </div>
     </header>
   );
 }
- 
-export default NavBar;
-/* <ul className="nav-menu">
-        <li onClick={() => setMenu("Mapa")}>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Mapa
-          {menu === "Mapa" ? <hr /> : <></>}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Nosotros")}>
-          <Link to="/Nosotros" style={{ textDecoration: "none" }}>
-            Nosotros {menu === "Nosotros" && <hr />}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Ayudar")}>
-          <Link to="/Ayudar" style={{ textDecoration: "none" }}>
-            Ayudar {menu === "Ayudar" && <hr />}
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Login")}>
-          <Link to="/Login" style={{ textDecoration: "none" }}>
-            Login{menu === "Login" && <hr />}
-          </Link>
-        </li>
-      </ul> */
 
+export default NavBar;

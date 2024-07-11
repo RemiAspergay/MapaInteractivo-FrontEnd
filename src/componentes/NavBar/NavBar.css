@@ -1,95 +1,10 @@
-/*.navbar {
-  display: flex;
-  justify-content: space-around;
-  padding: 5px 16px;
+header,
+nav {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.nav-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: blue;
-}
-
-.nav-logo img {
-  width: 150px;
-  aspect-ratio: 1/1;
-  background-color: #ff4141;
-}
-
-.nav-logo p {
-  color: #171717;
-  font-size: 25px;
-  font-weight: 600;
-  padding: 0;
-  background-color: yellow;
-}
-.nav-menu {
-  display: flex;
-  align-items: 38px;
-  list-style: none;
-  gap: 50px;
-  color: #626262;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.nav-menu li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3px;
-  cursor: pointer;
-}
-
-.nav-menu hr {
-  border: none;
-  width: 80%;
-  height: 3px;
-  border-radius: 10px;
-  background-color: #ff4141;
-}
-
-.nav-login-cart {
-  display: flex;
-  align-items: center;
-  gap: 45px;
-}
-
-.nav-login-cart button {
-  width: 157px;
-  height: 58px;
-  outline: none;
-  border: 1px solid #7a7a7a;
-  border-radius: 75px;
-  color: #515151;
-  font-size: 20px;
-  font-weight: 500;
-  background-color: white;
-  cursor: pointer;
-}
-
-.nav-login-cart button:active {
-  background-color: #f3f3f3;
-}
-
-.nav-cart-count {
-  width: 22px;
-  height: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -35px;
-  margin-left: -55px;
-  border-radius: 11px;
-  font-size: 14px;
-  background-color: red;
-  color: #ffffff;
-} */
-
-
- 
 .title {
   font-size: 50px;
   font-weight: 100;
@@ -98,7 +13,7 @@
   text-align: right;
   margin: 0 20px;
 }
- 
+
 .subtitle {
   font-size: 20px;
   font-weight: 100;
@@ -106,7 +21,7 @@
   text-align: right;
   margin: 0 20px;
 }
- 
+
 .burger {
   margin: auto 25px;
 }
@@ -116,7 +31,7 @@
   cursor: pointer;
   transform: scaleX(-1);
 }
- 
+
 .vbp-header-menu-button__svg line {
   stroke: var(--letra-a);
   stroke-dasharray: 100%;
@@ -125,7 +40,7 @@
   transform-origin: center;
   stroke-width: 3px;
 }
- 
+
 .vbp-header-menu-button__svg .top {
   transform: translateY(-35%);
   -webkit-transform: translateY(-35%);
@@ -133,7 +48,7 @@
   -ms-transform: translateY(35%);
   -o-transform: translateY(35%);
 }
- 
+
 .vbp-header-menu-button__svg .middle {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
@@ -146,7 +61,7 @@
   -ms-transition: opacity 0.3s, transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
 }
- 
+
 .vbp-header-menu-button__svg .bottom {
   transform: translateY(33%);
   -webkit-transform: translateY(33%);
@@ -168,7 +83,7 @@ body.menu-open .vbp-header-menu-button__svg .top {
   -o-transform: rotate(45deg);
   stroke-linecap: round;
 }
- 
+
 body.menu-open .vbp-header-menu-button__svg .middle {
   transform: scaleX(0.1);
   -webkit-transform: scaleX(0.1);
@@ -177,7 +92,7 @@ body.menu-open .vbp-header-menu-button__svg .middle {
   -o-transform: scaleX(0.1);
   opacity: 0;
 }
- 
+
 body.menu-open .vbp-header-menu-button__svg line.bottom {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -186,19 +101,20 @@ body.menu-open .vbp-header-menu-button__svg line.bottom {
   -o-transform: rotate(-45deg);
   stroke-linecap: round;
 }
- 
+
 body.menu-open .vbp-header-menu-button__svg .bottom {
   stroke-dashoffset: 0%;
 }
- 
+
 nav {
   display: flex;
   justify-content: space-between;
   background-color: var(--fondo-a);
 }
- 
+
 .nav-text {
   background-color: var(--fondo-a);
+  min-width: 80%;
 }
 
 .nav-menu {
@@ -224,7 +140,7 @@ nav {
   color: var(--letra-a);
 }
 
-.nav-menu ul li a{
+.nav-menu ul li a {
   margin: 10px 0px;
   display: block;
   line-height: 20px;
@@ -233,6 +149,47 @@ nav {
   text-decoration: none;
 }
 
-.nav-menu ul li:hover{
+.nav-menu ul li:hover {
   color: var(--letra-v);
+}
+
+.navUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .nav-text {
+    min-width: 180px;
+    background-color: red !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .container-map {
+    scale: 80%;
+    transform: translate(-60px, -270px);
+  }
+
+  .nav-text {
+    max-width: 150px;
+    background-color: red !important;
+  }
+
+  .navUser {
+    width: 40px;
+    height: 40px;
+  }
 }
