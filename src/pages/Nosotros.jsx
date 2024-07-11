@@ -1,4 +1,3 @@
-
 import Benjamin from "../componentes/assets/Benjamin.png";
 import Henry from "../componentes/assets/Henry.png";
 import Paula from "../componentes/assets/Paula.png";
@@ -11,7 +10,7 @@ function Nosotros() {
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-end",
+          justifyContent: "center",
           padding: "5px",
         }}
       >

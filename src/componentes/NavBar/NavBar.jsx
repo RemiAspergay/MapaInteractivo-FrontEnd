@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import "./NavBar.css";
 import logo from "../assets/wina.svg";
@@ -6,15 +5,21 @@ import { Link } from "react-router-dom";
 
 import "./NavBar.css";
 import { drawerClasses } from "@mui/material";
- 
+
 function NavBar() {
-  const [drawer,setDrawer] = useState(false)
-  const [menu,setMenu] = useState(false)
-  useEffect(() => {setDrawer(false)},[menu]) 
+  const [drawer, setDrawer] = useState(false);
+  const [menu, setMenu] = useState(false);
+  useEffect(() => {
+    setDrawer(false);
+  }, [menu]);
   return (
     <header>
       <nav>
-        <div className="burger" role="button" onClick={() => setDrawer(!drawer)}>
+        <div
+          className="burger"
+          role="button"
+          onClick={() => setDrawer(!drawer)}
+        >
           <svg className="vbp-header-menu-button__svg">
             <line
               x1="0"
@@ -48,33 +53,26 @@ function NavBar() {
             Mapa interactivo de parques nacionales y fauna endémica chilena
           </h2>
         </div>
+        <div className="navUser">B</div>
       </nav>
-      <div className={`nav-menu ${drawer ? 'nav-menu-down' : 'nav-menu-top'}`}>
-      <ul>
-        <li onClick={() => setMenu("Mapa")}>
-          <Link to="/">
-            Mapa
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Nosotros")}>
-          <Link to="/Nosotros">
-            Nosotros
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Ayudar")}>
-          <Link to="/Ayudar">
-            Ayudar
-          </Link>
-        </li>
-        <li onClick={() => setMenu("Login")}>
-          <Link to="/Login">
-            Login
-          </Link>
-        </li>
-      </ul>
+      <div className={`nav-menu ${drawer ? "nav-menu-down" : "nav-menu-top"}`}>
+        <ul>
+          <li onClick={() => setMenu("Mapa")}>
+            <Link to="/">Mapa</Link>
+          </li>
+          <li onClick={() => setMenu("Nosotros")}>
+            <Link to="/Nosotros">Nosotros</Link>
+          </li>
+          <li onClick={() => setMenu("Ayudar")}>
+            <Link to="/Ayudar">Ayudar</Link>
+          </li>
+          <li onClick={() => setMenu("Login")}>
+            <Link to="/Login">Login</Link>
+          </li>
+        </ul>
       </div>
     </header>
   );
 }
- 
+
 export default NavBar;
