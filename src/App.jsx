@@ -18,10 +18,7 @@ function App() {
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Ayudar" element={<Ayudar />} />
           <Route path="/Login" element={<LoginSignup />} />
-          <Route
-            path="/Region/:id"
-            element={<Region />}
-          />
+          <Route path="/Region/:id" element={<Region />} />
         </Routes>
       </Main>
       <div className="footer">

@@ -50,21 +50,6 @@ const LoginSignup = () => {
       setAction(e);
     }
   };
-
-  /* useEffect(() => {
-    console.log("hola");
-    axios
-      .post(ruta, {
-        nombre: "Fiona",
-        password: "fiona123",
-        correo: "fiona@123.com",
-      })
-      .then((response) => {
-        console.log(response.data);
-      })
-      .catch((error) => console.log(error));
-  }, []); */
-
   return (
     <div className="container">
       <div className="header">
@@ -84,7 +69,6 @@ const LoginSignup = () => {
             />
           </div>
         )}
-
         <div className="input">
           <input
             type="email"
@@ -101,7 +85,6 @@ const LoginSignup = () => {
             onChange={(e) => setPass(e.target.value)}
           />
         </div>
-
         <div className="submit-container">
           <div
             className={action === "Sign Up" ? "submit pink" : "submit"}

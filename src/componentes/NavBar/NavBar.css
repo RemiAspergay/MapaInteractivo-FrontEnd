@@ -167,7 +167,6 @@ nav {
 @media (max-width: 600px) {
   .nav-text {
     min-width: 180px;
-    background-color: red !important;
   }
 }
 
@@ -185,7 +184,6 @@ nav {
 
   .nav-text {
     max-width: 150px;
-    background-color: red !important;
   }
 
   .navUser {

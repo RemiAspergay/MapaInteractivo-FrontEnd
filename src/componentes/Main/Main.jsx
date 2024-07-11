@@ -1,13 +1,11 @@
-import "./Main.css" 
+import "./Main.css";
 
-function Main({children}) {
+function Main({ children }) {
   return (
     <div className="main-container">
-        <div className="main-content">
-        {children}
-        </div>
+      <div className="main-content">{children}</div>
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;

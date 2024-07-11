@@ -1,13 +1,13 @@
-.main-container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: calc(100vh - 105px);
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: calc(100vh - 105px);
 }
 
 .main-content {
-    margin: 0px auto;
-    width: 600px;
-    max-width: 100%;
-    overflow-x: hidden;
+  margin: 0px auto;
+  width: 600px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
