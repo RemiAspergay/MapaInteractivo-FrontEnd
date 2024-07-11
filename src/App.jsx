@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 
 import Main from "./componentes/Main/Main";
 import NavBar from "./componentes/NavBar/NavBar";
-import Nosotros from "./Pages/Nosotros";
-import Ayudar from "./Pages/Ayudar";
-import Mapa from "./Pages/Mapa";
+import Nosotros from "./pages/Nosotros";
+import Ayudar from "./pages/Ayudar";
+import Mapa from "./pages/Mapa";
 
 function App() {
   return (
