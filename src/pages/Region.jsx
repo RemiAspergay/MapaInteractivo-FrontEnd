@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import regiones from "../componentes/assets/all_region";
 import { Container, Grid, Typography, Button } from "@mui/material";
 import all_parque from "../componentes/assets/all_parque";
@@ -7,20 +7,22 @@ import all_parque from "../componentes/assets/all_parque";
 function Region() {
   const [region, setRegion] = useState(null);
   const [parques, setParques] = useState([]);
-
   const { id } = useParams();
+  const navigate = useNavigate();
 
   console.log(region);
 
   useEffect(() => {
     const datos = regiones.find((reg) => reg.id == id);
+    if (datos){
     setRegion(datos);
-    /* console.log(datos);
-    console.log(all_parque); */
     setParques(all_parque.filter((parque) => parque.region === datos.nombre));
+    }
   }, []);
 
-  console.log(parques);
+  const handleDivClick = (parqueId) => {
+    navigate(`/Parque/${parqueId}`);
+  };
 
   return (
     <>
@@ -35,30 +37,56 @@ function Region() {
               />
             </Grid>
             <Grid item xs={12} sm={6} sx={{ padding: "15px", margin: "auto" }}>
-              <Typography variant="h5">
-                <b>Detalle: </b>
+              <Typography variant="h4" sx={{textAlign:"center"}}>
                 {region.nombre}
               </Typography>
-              <div style={{ textAlign: "right", marginTop: "15px" }}>
+              {/*renderización del map de parque*/}
+              <Grid container sx={{ mt: "40px" }}>
+                {parques.length > 0 &&
+                parques.map((item, index) => (
+                  <Grid 
+                  key={index} 
+                  item 
+                  xs={12} 
+                  sm={6} 
+                  sx={{ margin: "auto" }}>
+                    <div style={{ textAlign: "right", marginTop: "15px" }}>
+                    <Button
+                      color="error"
+                      variant="outlined"
+                      onClick={() => handleDivClick(item.id)}
+                    >
+                    {item.nombre}
+                    </Button>
+                  </div>
+                  </Grid>
+                ))}
+              </Grid>
+              {/* <Typography variant="h5">
+                <b>Parques: </b>
+                {nombre.parques}
+              </Typography> */}
+
+              {/* <div style={{ textAlign: "right", marginTop: "15px" }}>
                 <Button
                   color="error"
                   variant="outlined"
-                  onClick={() => handleDivClick(parque.id)}
+                  onClick={() => handleDivClick(animales.id)}
                 >
-                  Parque
+                  Animales de la zona
                 </Button>
-              </div>
+              </div> */}
             </Grid>
           </Grid>
           {/* MAP() */}
-          <Grid container sx={{ mt: "40px" }}>
+          {/* <Grid container sx={{ mt: "40px" }}>
             {parques[0] &&
               parques.map((item, index) => (
                 <Grid key={index} item xs={12} sm={6} sx={{ margin: "auto" }}>
                   {item.nombre}
                 </Grid>
               ))}
-          </Grid>
+          </Grid> */}
         </Container>
       )}
     </>

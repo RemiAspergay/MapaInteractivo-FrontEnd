@@ -1,17 +1,17 @@
 import LoginSignup from "./componentes/Login/LoginSignup";
 import { Routes, Route } from "react-router-dom";
+import "./App.css"
 
 import Main from "./componentes/Main/Main";
-import NavBar from "./componentes/NavBar/NavBar";
 import Nosotros from "./Pages/Nosotros";
 import Ayudar from "./Pages/Ayudar";
 import Mapa from "./Pages/Mapa";
 import Region from "./Pages/Region";
+import Parque from "./Pages/Parque";
 
 function App() {
   return (
     <>
-      <NavBar />
       <Main>
         <Routes>
           <Route path="/" element={<Mapa />} />
@@ -22,11 +22,15 @@ function App() {
             path="/Region/:id"
             element={<Region />}
           />
+          <Route
+            path="/Parque/:id"
+            element={<Parque />}
+          />
         </Routes>
       </Main>
-      <div className="footer">
+      <footer>
         © EndemiMapa.cl 2024 Todos los derechos reservados.
-      </div>
+      </footer>
     </>
   );
 }

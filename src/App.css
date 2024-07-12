@@ -3,13 +3,11 @@
   overflow: hidden;
 }
 
-.footer {
+footer {
   text-align: left;
   background-color: var(--fondo-a);
-  box-sizing: border-box;
   width: 100%;
   color: var(--letra-a);
-  position: absolute;
   left: 0;
   bottom: 0;
   right: 0;

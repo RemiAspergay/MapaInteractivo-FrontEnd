@@ -7,7 +7,6 @@ import {
   Grid,
 } from "@mui/material";
 
-import { Link } from "react-router-dom"; //Este hook sirve para redireccionar
 import { useNavigate } from "react-router-dom";
 
 function Cards({ data }) {
