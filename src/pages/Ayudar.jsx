@@ -6,11 +6,12 @@ function Ayudar() {
       <div
         className="ayudar"
         style={{
-          color: "var(--letra-v)",
+          backgroundColor: "var(--fondo-a)",
+          color: "var(--letra-a)",
           padding: "10px",
-          maxWidth: "90%",
+          borderRadius: "5px",
+          maxWidth: "85%",
           textAlign: "center",
-          margin: "auto",
         }}
       >
         <h2 style={{ fontSize: "25px", marginBottom: "5px" }}>¿Cómo ayudar?</h2>
