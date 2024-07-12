@@ -9,7 +9,6 @@ import orestia from "./fauna_img/15Orestiaspiacotensis.png";
 import vociferator from "./fauna_img/16Phymaturus_vociferator.png";
 import Lirimensis from "./fauna_img/1PseudorestiasLirimensis.png";
 import Telmatobius from "./fauna_img/1TelmatobiusChusmisensis.png";
-import Barrigai from "./fauna_img/2EctinogoniaBarrigai.png";
 import Vilamensis from "./fauna_img/2TelmatobiusVilamensis.png";
 import Papudo from "./fauna_img/4AeglaPapudo.png";
 import Cnema from "./fauna_img/4CnemalobusPegnai.png";
@@ -18,7 +17,34 @@ import Phymaturus from "./fauna_img/5PhymaturusAlicahuense.png";
 import Confusus from "./fauna_img/6LiolaemusConfusus.png";
 import Nitidus from "./fauna_img/6SclerostomulusNitidus.png";
 import Curis from "./fauna_img/7LiolaemusCuris.png";
-
+import condor from "./fauna_img/condor.jpg";
+import truculentus from "./fauna_img/Eathlus_truculentus.jpg";
+import melaniceps from "./fauna_img/Liolaemus_melaniceps.jpeg";
+import scorpion from "./fauna_img/Brachistosternus_philippii.jpg";
+import escarabajo from "./fauna_img/Praocis_medvedevi.jpg";
+import ficheti from "./fauna_img/Callisphyris_ficheti.jpg";
+import hibrida from "./fauna_img/Callyntra_hibrida.jpg";
+import nigroperla from "./fauna_img/Nigroperla_costalis.png";
+import rhinoderma from "./fauna_img/Rhinoderma_rufum.jpg";
+import vittatus from "./fauna_img/Alsodes_vittatus.png";
+import hualpen from "./fauna_img/Acanthogonatus_hualpen.jpg";
+import jousselini from "./fauna_img/Chiasognathus_jousselini.jpg";
+import hermanuzi from "./fauna_img/Liolaemus_hermannunezi.png";
+import picaflorari from "./fauna_img/PicaflorArica.jpg";
+import rayadito from "./fauna_img/RayaditoMasafuera.png";
+import picaflorjuan from "./fauna_img/PicaflorJuanFernandez.png";
+import parulus from "./fauna_img/Anairetes_parulus.jpg";
+import huella from "./huellaFauna.png";
+import darwin from "./fauna_img/Rhinoderma_darwinii.jpg";
+import octodon from "./fauna_img/Octodon_degus.png";
+import elegans from "./fauna_img/Thylamys_elegans.png";
+import lagartija from "./fauna_img/Liolaemus_chiliensis.jpg";
+import gloriae from "./fauna_img/Orestias_gloriae.png";
+import barrigai from "./fauna_img/Ectinogonia_barrigai.png";
+import nigroviridis from "./fauna_img/Liolaemus_nigroviridis.png";
+import chincol from "./fauna_img/chincol.jpg";
+import jubae from "./fauna_img/Palmaspis_jubae.png";
+import huemul from "./fauna_img/huemul.png";
 let all_fauna = [
   {
     id: 1,
@@ -29,7 +55,7 @@ let all_fauna = [
     masa: "10-15 g",
     descripcion: "Pez endémico de áreas específicas en Chile.",
     imagenFauna: Lirimensis,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Atacama"],
     parques: ["Parque Nacional Llanos de Challe"],
   },
@@ -42,7 +68,7 @@ let all_fauna = [
     masa: "30-40 g",
     descripcion: "Rana que habita en zonas específicas de Chile.",
     imagenFauna: Telmatobius,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Antofagasta"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -54,8 +80,8 @@ let all_fauna = [
     medida: "4-6 cm",
     masa: "5-10 g",
     descripcion: "Pez endémico de cuerpos de agua específicos en Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: gloriae,
+    imagenHuella: huella,
     Region: ["Región de Tarapacá"],
     parques: ["Parque Nacional Volcán Isluga"],
   },
@@ -68,7 +94,7 @@ let all_fauna = [
     masa: "20-30 g",
     descripcion: "Rana que se encuentra en áreas restringidas de Chile.",
     imagenFauna: Vilamensis,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Arica y Parinacota"],
     parques: ["Parque Nacional Lauca"],
   },
@@ -80,8 +106,8 @@ let all_fauna = [
     medida: "15-20 cm",
     masa: "30-50 g",
     descripcion: "Araña tarántula que habita en el desierto de Atacama.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: truculentus,
+    imagenHuella: huella,
     Region: ["Región de Atacama"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -93,8 +119,8 @@ let all_fauna = [
     medida: "5-7 cm",
     masa: "10-15 g",
     descripcion: "Escorpión que habita en regiones desérticas de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: scorpion,
+    imagenHuella: huella,
     Region: ["Región de Antofagasta"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -106,8 +132,8 @@ let all_fauna = [
     medida: "2-3 cm",
     masa: "2-3 g",
     descripcion: "Escarabajo endémico de Chile.",
-    imagenFauna: Barrigai,
-    imagenHuella: "",
+    imagenFauna: barrigai,
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -119,8 +145,8 @@ let all_fauna = [
     medida: "3-4 cm",
     masa: "3-4 g",
     descripcion: "Escarabajo que habita en zonas específicas de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: escarabajo,
+    imagenHuella: huella,
     Region: ["Región de Atacama"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -133,7 +159,7 @@ let all_fauna = [
     masa: "1-2 g",
     descripcion: "Escarabajo endémico de Chile.",
     imagenFauna: Cnema,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional La Campana"],
   },
@@ -145,8 +171,8 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: melaniceps,
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -159,7 +185,7 @@ let all_fauna = [
     masa: "20-30 g",
     descripcion: "Cangrejo endémico de Chile.",
     imagenFauna: Papudo,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional La Campana"],
   },
@@ -172,7 +198,7 @@ let all_fauna = [
     masa: "25-35 g",
     descripcion: "Tarántula que habita en el norte de Chile.",
     imagenFauna: Parvulus,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Arica y Parinacota"],
     parques: ["Parque Nacional Lauca"],
   },
@@ -184,8 +210,8 @@ let all_fauna = [
     medida: "2-3 cm",
     masa: "2-3 g",
     descripcion: "Escarabajo endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: ficheti,
+    imagenHuella: huella,
     Region: ["Región de O'Higgins"],
     parques: ["Parque Nacional Radal Siete Tazas"],
   },
@@ -198,7 +224,7 @@ let all_fauna = [
     masa: "20-25 g",
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: Phymaturus,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -211,7 +237,7 @@ let all_fauna = [
     masa: "1-2 g",
     descripcion: "Escarabajo endémico de Chile.",
     imagenFauna: Nitidus,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional La Campana"],
   },
@@ -223,8 +249,8 @@ let all_fauna = [
     medida: "1-2 cm",
     masa: "1-2 g",
     descripcion: "Escarabajo endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: hibrida,
+    imagenHuella: huella,
     Region: ["Región de Atacama"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -237,7 +263,7 @@ let all_fauna = [
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: Confusus,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -249,8 +275,8 @@ let all_fauna = [
     medida: "0.5-1 cm",
     masa: "0.1-0.2 g",
     descripcion: "Mosca endémica de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: nigroperla,
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional La Campana"],
   },
@@ -263,7 +289,7 @@ let all_fauna = [
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: Curis,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -275,8 +301,8 @@ let all_fauna = [
     medida: "3-5 cm",
     masa: "5-7 g",
     descripcion: "Rana endémica de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: rhinoderma,
+    imagenHuella: huella,
     Region: ["Región de La Araucanía"],
     parques: ["Parque Nacional Huerquehue"],
   },
@@ -288,8 +314,8 @@ let all_fauna = [
     medida: "5-7 cm",
     masa: "20-30 g",
     descripcion: "Rana que habita en áreas específicas de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: vittatus,
+    imagenHuella: huella,
     Region: ["Región de Los Lagos"],
     parques: ["Parque Nacional Vicente Pérez Rosales"],
   },
@@ -301,8 +327,8 @@ let all_fauna = [
     medida: "2-3 cm",
     masa: "3-5 g",
     descripcion: "Araña endémica de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: hualpen,
+    imagenHuella: huella,
     Region: ["Región del Biobío"],
     parques: ["Parque Nacional Nonguén"],
   },
@@ -314,8 +340,8 @@ let all_fauna = [
     medida: "5-6 cm",
     masa: "10-15 g",
     descripcion: "Escarabajo endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: jousselini,
+    imagenHuella: huella,
     Region: ["Región de Los Ríos"],
     parques: ["Parque Nacional Alerce Costero"],
   },
@@ -327,8 +353,8 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "15-20 g",
     descripcion: "Lagarto endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: hermanuzi,
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -341,7 +367,7 @@ let all_fauna = [
     masa: "20-30 g",
     descripcion: "Cangrejo endémico de Chile.",
     imagenFauna: Aegla,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Los Ríos"],
     parques: ["Parque Nacional Alerce Costero"],
   },
@@ -354,7 +380,7 @@ let all_fauna = [
     masa: "50-100 g",
     descripcion: "Coral endémico de Chile.",
     imagenFauna: Swiftia,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Los Lagos"],
     parques: ["Parque Nacional Chiloé"],
   },
@@ -367,7 +393,7 @@ let all_fauna = [
     masa: "2-3 g",
     descripcion: "Coleóptero endémico de Chile.",
     imagenFauna: Paraholopterus,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región del Biobío"],
     parques: ["Parque Nacional Nahuelbuta"],
   },
@@ -380,7 +406,7 @@ let all_fauna = [
     masa: "20-30 g",
     descripcion: "Rana que habita en áreas específicas de Chile.",
     imagenFauna: Alsodes,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Los Ríos"],
     parques: ["Parque Nacional Alerce Costero"],
   },
@@ -393,7 +419,7 @@ let all_fauna = [
     masa: "25-35 g",
     descripcion: "Tarántula que habita en el norte de Chile.",
     imagenFauna: condorito,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Antofagasta"],
     parques: ["Parque Nacional Pan de Azúcar"],
   },
@@ -405,8 +431,8 @@ let all_fauna = [
     medida: "1-2 cm",
     masa: "1-2 g",
     descripcion: "Insecto endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: jubae,
+    imagenHuella: huella,
     Region: ["Región de Los Lagos"],
     parques: ["Parque Nacional Chiloé"],
   },
@@ -419,7 +445,7 @@ let all_fauna = [
     masa: "20-30 g",
     descripcion: "Rana que habita en áreas específicas de Chile.",
     imagenFauna: norae,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Los Ríos"],
     parques: ["Parque Nacional Alerce Costero"],
   },
@@ -432,9 +458,10 @@ let all_fauna = [
     masa: "5-10 g",
     descripcion: "Pez endémico de cuerpos de agua específicos en Chile.",
     imagenFauna: orestia,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Tarapacá"],
-    parques: ["Parque Nacional Volcán Isluga"],
+    parques: ["Parque Nacional Patagonia",
+      "Parque Nacional Volcán Isluga"],
   },
   {
     id: 33,
@@ -445,7 +472,7 @@ let all_fauna = [
     masa: "2-5 g",
     descripcion: "Pequeño colibrí endémico de Chile.",
     imagenFauna: eulidia,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Arica y Parinacota"],
     parques: ["Parque Nacional Lauca"],
   },
@@ -457,8 +484,8 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "2-5 g",
     descripcion: "Pequeño colibrí endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: picaflorari,
+    imagenHuella: huella,
     Region: ["Región de Arica y Parinacota"],
     parques: ["Parque Nacional Lauca"],
   },
@@ -471,7 +498,7 @@ let all_fauna = [
     masa: "20-25 g",
     descripcion: "Lagarto endémico de Chile.",
     imagenFauna: vociferator,
-    imagenHuella: "",
+    imagenHuella: huella,
     Region: ["Región de Coquimbo"],
     parques: ["Parque Nacional Bosque Fray Jorge"],
   },
@@ -483,8 +510,8 @@ let all_fauna = [
     medida: "12-15 cm",
     masa: "20-25 g",
     descripcion: "Pequeño pájaro endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: rayadito,
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional Archipiélago Juan Fernández"],
   },
@@ -496,8 +523,8 @@ let all_fauna = [
     medida: "8-10 cm",
     masa: "2-5 g",
     descripcion: "Pequeño colibrí endémico de Chile.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: picaflorjuan,
+    imagenHuella: huella,
     Region: ["Región de Valparaíso"],
     parques: ["Parque Nacional Archipiélago Juan Fernández"],
   },
@@ -510,8 +537,8 @@ let all_fauna = [
     masa: "8-9 g",
     descripcion:
       "El cachudito es un pequeño pájaro que se encuentra en las regiones de Atacama, Coquimbo y Valparaíso. Es conocido por su distintivo penacho en la cabeza.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: parulus,
+    imagenHuella: huella,
     Region: ["Atacama", "Coquimbo", "Valparaíso"],
     parques: [
       "Parque Nacional Llanos de Challe",
@@ -529,8 +556,8 @@ let all_fauna = [
     masa: "2-5 g",
     descripcion:
       "El sapo de Darwin es una especie de anfibio que habita en las regiones de Los Ríos y Los Lagos. Es conocido por su método único de reproducción, donde los machos incuban los huevos en su boca.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: darwin,
+    imagenHuella: huella,
     Region: ["Los Ríos", "Los Lagos"],
     parques: [
       "Parque Nacional Alerce Costero",
@@ -547,8 +574,8 @@ let all_fauna = [
     masa: "170-300 g",
     descripcion:
       "El degú es un roedor que se encuentra en las regiones de Valparaíso, Metropolitana y O'Higgins. Es un animal social que vive en colonias.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: octodon,
+    imagenHuella: huella,
     Region: ["Valparaíso", "Metropolitana", "O'Higgins"],
     parques: [
       "Parque Nacional La Campana",
@@ -565,8 +592,8 @@ let all_fauna = [
     masa: "15-40 g",
     descripcion:
       "La comadrejita trompuda es un pequeño marsupial que habita en las regiones de Coquimbo y Valparaíso. Es nocturna y se alimenta de insectos y pequeños vertebrados.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: elegans,
+    imagenHuella: huella,
     Region: ["Coquimbo", "Valparaíso"],
     parques: [
       "Parque Nacional Bosque de Fray Jorge",
@@ -582,8 +609,8 @@ let all_fauna = [
     masa: "10-20 g",
     descripcion:
       "La lagartija chilena es un reptil que se encuentra en las regiones de Valparaíso, Metropolitana y O'Higgins. Es conocida por su capacidad de cambiar de color para camuflarse.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: lagartija,
+    imagenHuella: huella,
     Region: ["Valparaíso", "Metropolitana", "O'Higgins"],
     parques: [
       "Parque Nacional La Campana",
@@ -600,8 +627,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Este pequeño pez de agua dulce es endémico del río Lirima en la región de Tarapacá.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: Lirimensis,
+    imagenHuella: huella,
     Region: ["Tarapacá"],
     parques: ["Parque Nacional Volcán Isluga"],
   },
@@ -614,8 +641,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Un sapo acuático que se encuentra en las aguas termales de Chusmisa en la región de Tarapacá.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: Telmatobius,
+    imagenHuella: huella,
     Region: ["Tarapacá"],
     parques: ["Parque Nacional Volcán Isluga"],
   },
@@ -628,8 +655,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Pez de agua dulce que habita en el altiplano chileno, especialmente en la región de Tarapacá.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: gloriae,
+    imagenHuella: huella,
     Region: ["Tarapacá"],
     parques: ["Parque Nacional Volcán Isluga"],
   },
@@ -642,8 +669,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Este sapo acuático habita en las aguas termales de Vilama en la región de Antofagasta.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: Vilamensis,
+    imagenHuella: huella,
     Region: ["Antofagasta"],
     parques: ["Parque Nacional Llullaillaco"],
   },
@@ -656,8 +683,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Tarántula que se encuentra en el desierto de Atacama, en la región de Antofagasta.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: truculentus,
+    imagenHuella: huella,
     Region: ["Antofagasta"],
     parques: ["Parque Nacional Llullaillaco", "Reserva Nacional La Chimba"],
   },
@@ -670,58 +697,15 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Escorpión que habita en el desierto de Atacama, especialmente en la región de Atacama.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: scorpion,
+    imagenHuella: huella,
     Region: ["Atacama"],
     parques: [
       "Parque Nacional Pan de Azúcar",
       "Parque Nacional Llanos de Challe",
     ],
   },
-  {
-    id: 49,
-    ncomun: "Escarabajo Barrigai",
-    nombreCientifico: "Ectinogonia barrigai",
-    estado: "Datos insuficientes",
-    medida: "2-3 cm",
-    masa: "Desconocido",
-    descripcion:
-      "Escarabajo endémico del norte de Chile, encontrado en la región de Antofagasta.",
-    imagenFauna: "",
-    imagenHuella: "",
-    Region: ["Antofagasta"],
-    parques: ["Parque Nacional Llullaillaco", "Reserva Nacional La Chimba"],
-  },
-  {
-    id: 50,
-    ncomun: "Escarabajo Medvedevi",
-    nombreCientifico: "Praocis medvedevi",
-    estado: "Datos insuficientes",
-    medida: "1-2 cm",
-    masa: "Desconocido",
-    descripcion:
-      "Escarabajo encontrado en el desierto de Atacama, región de Antofagasta.",
-    imagenFauna: "",
-    imagenHuella: "",
-    Region: ["Antofagasta"],
-    parques: ["Parque Nacional Llullaillaco", "Reserva Nacional La Chimba"],
-  },
-  {
-    id: 51,
-    ncomun: "Cnemalobus de Pegna",
-    nombreCientifico: "Cnemalobus pegnai",
-    estado: "Datos insuficientes",
-    medida: "1-2 cm",
-    masa: "Desconocido",
-    descripcion: "Escarabajo endémico de la región de Coquimbo.",
-    imagenFauna: "",
-    imagenHuella: "",
-    Region: ["Coquimbo"],
-    parques: [
-      "Parque Nacional Bosque de Fray Jorge",
-      "Parque Nacional Pan de Azúcar",
-    ],
-  },
+
   {
     id: 52,
     ncomun: "Lagartija cabeza negra",
@@ -731,8 +715,8 @@ let all_fauna = [
     masa: "Desconocido",
     descripcion:
       "Lagartija que se encuentra en las regiones de Valparaíso y Metropolitana.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: nigroviridis,
+    imagenHuella: huella,
     Region: ["Valparaíso", "Metropolitana"],
     parques: ["Parque Nacional La Campana", "Parque Nacional Río Clarillo"],
   },
@@ -745,8 +729,8 @@ let all_fauna = [
     masa: "20-25 g",
     descripcion:
       "Pajarito muy común en las zonas urbanas y rurales de Chile. Se encuentra en todo el país.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: chincol,
+    imagenHuella: huella,
     Region: ["Todo Chile"],
     parques: [
       "Parque Nacional Torres del Paine",
@@ -763,8 +747,8 @@ let all_fauna = [
     masa: "20-100 kg",
     descripcion:
       "mamífero en peligro de extinción perteneciente a la familia Cervidae que habita en la cordillera de los Andes en los bosques andino patagónicos.",
-    imagenFauna: "",
-    imagenHuella: "",
+    imagenFauna: huemul,
+    imagenHuella: huella,
     Region: ["Región de Ñuble"],
     parques: [
       "Parque Nacional Torres del Paine",
@@ -773,6 +757,25 @@ let all_fauna = [
       "Reserva nacional Ñuble",
     ],
   },
+  {    
+    id: 55,    
+    ncomun: "Cóndor",    
+    nombreCientifico: "Vultur gryphus",    
+    estado: "Preocupación menor",    
+    medida: "270-320 cm",    
+    masa: "8-15 kg",    
+    descripcion:
+    "El cóndor andino es una especie de ave que habita en Sudamérica y es conocido por su gran envergadura, siendo una de las aves voladoras más grandes del mundo.",    
+    imagenFauna: condor,    
+    imagenHuella: huella,    
+    Region: ["Región de los Andes"],    
+    parques: ["Parque Nacional Laguna del Laja",
+      "Parque Nacional Torres del Paine",
+      "Parque Nacional Alerce Andino",
+      "Parque Nacional Vicente Pérez Rosales",
+      "Parque Nacional Lauca",
+      "Parque Nacional Huascarán"]
+    }
 ];
  
 export default all_fauna;

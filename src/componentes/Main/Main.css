@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     min-height: calc(100vh - 105px);
+    background-image: var(--fondo-f);
 }
 
 .main-content {

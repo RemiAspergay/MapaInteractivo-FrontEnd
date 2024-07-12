@@ -1,5 +1,5 @@
 :root {
-  --fondo-f: linear-gradient(#eed9c1, #ebb690) !important;
+  --fondo-f: linear-gradient(#eed9c1, #ebb690);
   --fondo-a: #3a2b2b;
   --letra-a: #f4f2ef;
   --fondo-v: #9aca9f;
@@ -12,6 +12,6 @@ html {
   min-height: 100%;
   background: var(--fondo-f);
   background-repeat: no-repeat;
-}
+} 
 
 

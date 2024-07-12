@@ -10,6 +10,7 @@ function Main({children}) {
         {children}
         </div>
     </div>
+    
     </ NavBar>
     </>
   )

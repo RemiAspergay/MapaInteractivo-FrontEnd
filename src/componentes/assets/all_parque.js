@@ -90,11 +90,6 @@ let all_parque = [
     region: "Región de La Araucanía",
   },
   {
-    id: 19,
-    nombre: "Parque Nacional Laguna del Laja",
-    region: "Región del Biobío",
-  },
-  {
     id: 20,
     nombre: "Parque Nacional Conguillío",
     region: "Región de La Araucanía",
@@ -113,11 +108,6 @@ let all_parque = [
     id: 23,
     nombre: "Parque Nacional Alerce Costero",
     region: "Región de Los Ríos",
-  },
-  {
-    id: 24,
-    nombre: "Parque Nacional Villarrica",
-    region: "Región de La Araucanía",
   },
   {
     id: 25,

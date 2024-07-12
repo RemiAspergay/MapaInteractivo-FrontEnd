@@ -47,18 +47,17 @@ function Region() {
                   <Grid 
                   key={index} 
                   item 
-                  xs={12} 
-                  sm={6} 
-                  sx={{ margin: "auto" }}>
-                    <div style={{ textAlign: "right", marginTop: "15px" }}>
+                  xs={24} 
+                  sm={12} 
+                  sx={{ margin: "auto"}}>
                     <Button
-                      color="error"
+                      color="success"
                       variant="outlined"
                       onClick={() => handleDivClick(item.id)}
+                      sx={{textAlign: "auto"}}
                     >
                     {item.nombre}
                     </Button>
-                  </div>
                   </Grid>
                 ))}
               </Grid>
